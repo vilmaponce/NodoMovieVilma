@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Añadir fondo general y mejorar las clases base */
+body {
+    background-color: #e277d7;
+    color: #333333; /* Texto oscuro */
+}
+
+
+.bg-dark-primary {
+    background-color: #1a1a1a;
+}
+
+.bg-dark-secondary {
+    background-color: #222222;
+}
+
+.text-text-primary {
+    color: #ffffff;
+}
+
+.text-text-secondary {
+    color: #aaa;
+}
+
+.bg-shadow-medium {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Asegúrate de que las imágenes tengan un tamaño adecuado */
+img {
+    object-fit: cover;
+}
+
+/* Definir un contenedor para el contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    border: 2px solid red;
+}
