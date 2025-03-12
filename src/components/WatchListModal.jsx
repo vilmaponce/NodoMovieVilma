@@ -7,11 +7,11 @@ const WatchlistModal = ({ isOpen, onClose, watchlist, removeFromWatchlist }) => 
   return (
     <div
       className="fixed inset-0 bg-shadow-medium bg-opacity-75 flex justify-center items-center z-50"
-      onClick={onClose}
+      onClick={onClose}//Al hacer clic fuera del modal, se cierra
     >
       <div
         className="bg-dark-primary rounded-lg p-6 relative w-full max-w-3xl max-h-[80vh] overflow-hidden"
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => e.stopPropagation()}//Evita que al hacer clic dentro del modal, este se cierre
       >
         <Button
           onClick={onClose}
